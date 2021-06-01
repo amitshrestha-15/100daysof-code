@@ -1,7 +1,9 @@
-# adding two numbers
-a = 20
-b = 40
-c = a + b
-print("The sum of two numbers is", c)
-print(c)
+a = input("a:")
+b = input("b:")
 
+c = a
+a = b
+b = c
+
+print("a=" + a)
+print("b=" + b)
